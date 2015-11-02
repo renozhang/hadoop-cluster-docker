@@ -2,7 +2,7 @@
 
 # start sshd
 echo "start sshd..."
-service ssh start
+service sshd start
 
 # start sef
 echo -e "\nstart serf..." 

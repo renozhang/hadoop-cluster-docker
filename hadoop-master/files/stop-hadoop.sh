@@ -22,7 +22,7 @@ do
     ((i++))
 done 
 
-$HADOOP_INSTALL/sbin/start-dfs.sh
+$HADOOP_INSTALL/sbin/stop-dfs.sh
 
 
 # change the slaves file
@@ -34,4 +34,4 @@ do
 done 
 
 echo -e "\n"
-$HADOOP_INSTALL/sbin/start-yarn.sh
+$HADOOP_INSTALL/sbin/stop-yarn.sh
