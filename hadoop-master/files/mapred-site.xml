@@ -6,4 +6,9 @@
     <name>mapreduce.framework.name</name>
     <value>yarn</value>
   </property>
+  <property>
+    <!-- for access job after job finished-->
+    <name>mapreduce.jobhistory.address</name>
+    <value>master.kiwenlau.com:19888</value>
+  </property>
 </configuration>

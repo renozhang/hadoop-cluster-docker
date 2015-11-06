@@ -28,4 +28,9 @@
     <name>yarn.nodemanager.localizer.address</name>
     <value>master:8060</value>
 </property>
+<property>
+    <!--for pass AMFilter -->
+    <name>yarn.web-proxy.address</name>
+    <value>master:9099</value>
+</property>
 </configuration>
